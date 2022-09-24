@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://nullshots.github.io/nullshots"
+baseURL = "https://nullshots.com"
 title = "Developer Vlog"
 theme = "reporter"
 # post pagination
