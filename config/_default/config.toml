@@ -8,8 +8,8 @@ paginate = "7"
 summaryLength = "60"
 # google analytics
 googleAnalytics = "" 
-# disqus short name
-disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+# disqus short name https://disqus.com
+disqusShortname = "nullshots-com"
 # disable language
 disableLanguages = []
 
