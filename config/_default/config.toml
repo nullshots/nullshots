@@ -5,7 +5,7 @@ theme = "reporter"
 # post pagination
 paginate = "7"
 # post excerpt
-summaryLength = "20"
+summaryLength = "60"
 # google analytics
 googleAnalytics = "" 
 # disqus short name
