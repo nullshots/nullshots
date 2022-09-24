@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
+baseURL = "https://nullshots.github.io/nullshots"
 title = "Metas Newsroom"
 theme = "reporter"
 # post pagination
