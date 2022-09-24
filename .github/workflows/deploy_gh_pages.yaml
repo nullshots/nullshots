@@ -1,34 +1,32 @@
----
-name: Deploy Hugo site via GitHub Pages
-
+name: CI
 on:
   push:
     branches:
-      - main # Set a branch to deploy
-  pull_request:
+      - master  # Set a branch to deploy
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
-
+      - name: Git Checkout
+        uses: actions/checkout@v2.3.4
+      - name: Update Theme
+        run: git submodule update --init --recursive
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v2.4.13
         with:
-          hugo-version: "latest"
-          extended: true
-
+          hugo-version: 'latest'
+          # extended: true
       - name: Build
         run: hugo --minify
-
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3.7.3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          #Error: Action failed with "The generated GITHUB_TOKEN (github_token) does not support to push to an external repository.
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
+          #When you use deploy_key, set your private key to the repository which includes this action and set your public key to your external repository.
+          # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: pratiyush/pratiyush.github.io
           publish_dir: ./public
-          publish_branch: gh_pages
+          publish_branch: docs
