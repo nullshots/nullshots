@@ -22,11 +22,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
-          #Error: Action failed with "The generated GITHUB_TOKEN (github_token) does not support to push to an external repository.
-          #github_token: ${{ secrets.GITHUB_TOKEN }}
-          #When you use deploy_key, set your private key to the repository which includes this action and set your public key to your external repository.
-          # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          external_repository: pratiyush/pratiyush.github.io
           publish_dir: ./public
           publish_branch: docs
