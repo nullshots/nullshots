@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer on Metas Newsroom</title>
+    <link>http://example.org/tw/categories/computer/</link>
+    <description>Recent content in computer on Metas Newsroom</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>❤️ Made with Love ❤️</copyright>
+    <lastBuildDate>Sat, 12 Dec 2020 11:07:10 +0600</lastBuildDate><atom:link href="http://example.org/tw/categories/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Artificial Assistant</title>
+      <link>http://example.org/tw/articles/lifestyle/post-3/</link>
+      <pubDate>Sat, 12 Dec 2020 11:07:10 +0600</pubDate>
+      
+      <guid>http://example.org/tw/articles/lifestyle/post-3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Learning Programming Is Easy</title>
+      <link>http://example.org/tw/articles/lifestyle/post-4/</link>
+      <pubDate>Fri, 07 Aug 2020 11:07:10 +0600</pubDate>
+      
+      <guid>http://example.org/tw/articles/lifestyle/post-4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Record Utra Smooth Video</title>
+      <link>http://example.org/tw/articles/post-3/</link>
+      <pubDate>Thu, 09 Jan 2020 11:07:10 +0600</pubDate>
+      
+      <guid>http://example.org/tw/articles/post-3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+  </channel>
+</rss>
