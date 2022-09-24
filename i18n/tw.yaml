@@ -1,0 +1,20 @@
+- id: latest_articles
+  translation: 最新文章
+
+- id: read_full_article
+  translation: 閱讀全文
+
+- id: minutes_read
+  translation: 分鐘
+
+- id: categories
+  translation: 分類
+
+- id: recommended
+  translation: 推薦
+
+- id: know_more
+  translation: 了解更多
+
+- id: send_message
+  translation: 發送消息

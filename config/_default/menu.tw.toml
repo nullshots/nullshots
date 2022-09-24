@@ -1,0 +1,61 @@
+# main menu
+[[main]]
+name = "關於"
+url = "about/"
+weight = 1
+
+[[main]]
+name = "文章"
+url = "#"
+hasChildren = true
+weight = 2
+
+  [[main]]
+  parent = "文章"
+  name = "旅行"
+  url = "articles/travel/"
+  weight = 1
+    
+  [[main]]
+  parent = "文章"
+  name = "生活"
+  url = "articles/lifestyle/"
+  weight = 2
+    
+  [[main]]
+  parent = "文章"
+  name = "遊輪"
+  url = "articles/cruises/"
+  weight = 3
+
+[[main]]
+name = "聯繫"
+url = "contact/"
+weight = 3
+
+
+# footer menu
+[[footer]]
+name = "關於"
+url = "about"
+weight = 2
+
+[[footer]]
+name = "站點"
+url = "sitemap.xml"
+weight = 3
+
+[[footer]]
+name = "元素"
+url = "elements"
+weight = 4
+
+[[footer]]
+name = "隱私政策"
+url = "privacy-policy"
+weight = 7
+
+[[footer]]
+name = "條款"
+url = "terms-conditions"
+weight = 8

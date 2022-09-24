@@ -1,0 +1,16 @@
+################################### English language #####################################
+[en]
+languageName = "英文"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+copyright = "❤️ Made with Love ❤️"
+
+################################### Chinese Traditional #####################################
+[tw]
+languageName = "中文"
+languageCode = "zh"
+contentDir = "content/traditional"
+weight = 2
+home = "主頁"
+copyright = "❤️ Made with Love ❤️"
