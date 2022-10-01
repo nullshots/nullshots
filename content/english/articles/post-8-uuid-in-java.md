@@ -1,7 +1,7 @@
 ---
 title: "String to UUID conversion in Java"
 date: 2022-09-24T11:07:10+06:00
-image: "images/post/structure_of_uuid.webp"
+image: "images/post/structure_of_uuid.png"
 description: "Convert String to UUID in Java"
 categories: ["String","UUID","Conversion"]
 draft: false
@@ -17,11 +17,14 @@ We'll go through one of the UUID class methods, and then we'll use regular expre
 
 ```java
 @Test
-public void whenValidUUIDStringIsValidated_thenValidationSucceeds() {
-String validUUID = "26929514-237c-11ed-861d-0242ac120002";
-Assertions.assertEquals(UUID.fromString(validUUID).toString(), validUUID);
+void shouldReturnValidUUID_UsingUUIDFromString() {
+    final String validUUID = "23c8fd18-078f-453e-8c9e-bade508c7132";
+    Assertions.assertEquals(UUID.fromString(validUUID).toString(), validUUID);
+}
 
-    String invalidUUID = "invalid-uuid";
+@Test
+void shouldThrowIllegalArgumentException_UsingUUIDFromString() {
+    final String invalidUUID = "23c8fd18-078f-453e";
     Assertions.assertThrows(IllegalArgumentException.class, () -> UUID.fromString(invalidUUID));
 }
 ```
