@@ -8,11 +8,13 @@ description = "This is meta description"
 author = "Themefisher"
 og_image = "/images/placeholder.jpg"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "hello@reporter.com"
+address = "Mittlerer Hasenpfad 59"
+mobile = "+49 1517 5353711"
+email = "nullshotz@gmail.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+# contact form works with https://formspree.io
+# https://dashboard.formspark.io/workspaces/otcsgMJs/forms/dEoZuzn3/how-to
+contact_form_action = "https://submit-form.com/dEoZuzn3"
 # custom script on header
 custom_script= ""
 # search

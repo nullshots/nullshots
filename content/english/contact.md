@@ -1,7 +1,7 @@
 ---
-title: "Say Hello"
+title: "Contact"
 layout: "contact"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor.
+Feel free to drop me a message or if you are at Frankfurt we could grab a coffee. 
