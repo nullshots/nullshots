@@ -1,7 +1,7 @@
 ---
 title: "Rotate Int Array in Java"
 date: 2022-10-01T11:07:10+06:00
-image: "images/post/rotate_new_moon.gif"
+image: "images/post/array_rotation.jpg"
 description: "Convert String to UUID in Java"
 categories: ["String","UUID","Conversion"]
 draft: false
