@@ -12,21 +12,9 @@ weight = 2
 
   [[main]]
   parent = "Articles"
-  name = "Travel"
-  url = "articles/travel/"
+  name = "Code Quality"
+  url = "articles/code-quality/"
   weight = 1
-    
-  [[main]]
-  parent = "Articles"
-  name = "Lifestyle"
-  url = "articles/lifestyle/"
-  weight = 2
-    
-  [[main]]
-  parent = "Articles"
-  name = "Cruises"
-  url = "articles/cruises/"
-  weight = 3
 
 [[main]]
 name = "Contact"
