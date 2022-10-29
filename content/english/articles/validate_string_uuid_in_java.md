@@ -13,7 +13,7 @@ In this tutorial, we're going to have a look at some ways of validating UUID (Un
 We'll go through one of the UUID class methods, and then we'll use regular expressions.
 
 ##  Using UUID.fromString()
-   One of the quickest ways of checking if a String is a UUID is by trying to map it using the static method fromString belonging to the UUID class. Let's try it out:
+One of the quickest ways of checking if a String is a UUID is by trying to map it using the static method fromString belonging to the UUID class. Let's try it out:
 
 ```java
 @Test
@@ -34,7 +34,7 @@ In the above code snippet, we can see that in case the string we're trying to va
 Some might argue that using exceptions is not a good practice for flow control, so we're going to see a different way of achieving the same result.
 
 ## Using Regular Expressions
-   Another way of validating a UUID is to use a regular expression that will match exactly the format.
+Another way of validating a UUID is to use a regular expression that will match exactly the format.
 
 Firstly, we need to define a Pattern that will be used to match the string.
 ```java
@@ -56,6 +56,6 @@ Pattern.compile("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0
 ```
 
 ## Conclusion
-   In this article, we've learned how to validate a UUID string by using regular expressions or by taking advantage of the static method of the UUID class.
+In this article, we've learned how to validate a UUID string by using regular expressions or by taking advantage of the static method of the UUID class.
 
 As always, the code for these examples is available over on GitHub.

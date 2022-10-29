@@ -1,6 +1,7 @@
 ---
 title: "Java Code Quality Series - 001"
 date: 2022-10-29T11:07:10+06:00
+author: "Pratiyush Kumar Singh"
 image: "images/post/post-4.jpg"
 description: "Convert String to UUID in Java"
 categories: ["Java","Code Quality","Code Review"]
@@ -58,7 +59,7 @@ Possible values of Boolean can be Boolean.True , Boolean.FALSE, NULL. In this pa
     }
 ```
 
-We can code **return Boolean.FALSE.equals(value) ? 0 : 1;** Usually, FALSE, NULL, NOT EQUAL these are negative words and I think I use positive words makes me feel good and bring good vibes.
+We can code *return Boolean.FALSE.equals(value) ? 0 : 1;* Usually, FALSE, NULL, NOT EQUAL these are negative words and I think I use positive words makes me feel good and bring good vibes.
 
 And, Bang we have reduced the 9 line of code to just one 3 lines.
      
