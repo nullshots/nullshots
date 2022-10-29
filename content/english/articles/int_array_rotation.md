@@ -1,8 +1,8 @@
 ---
 title: "Rotate Int Array in Java"
 date: 2022-10-01T11:07:10+06:00
-description: "Convert String to UUID in Java"
-categories: ["String","UUID","Conversion"]
+description: "Rotate Int Array in Java"
+categories: ["Integer","Algorithm","Array"]
 draft: false
 ---
 
@@ -268,21 +268,17 @@ Instead of moving one by one, divide the array into different sets where the num
 
 >Example:
 * For example take the array arr[] = {1, 2, 3, 4, 5, 6, 7} and d = 2.
- +---+---+---+---+---+---+---+
- | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
- +---+---+---+---+---+---+---+
-* The rotated array will look like:
- +---+---+---+---+---+---+---+
- | 3 | 4 | 5 | 6 | 7 | 1 | 2 |
- +---+---+---+---+---+---+---+
- 
+
+
+* The rotated array will look like {3, 4, 5, 6, 7, 1, 2}
+<PRE>
 * 1st Step: Consider the array as a combination of two blocks. One containing the first two elements and the other containing the remaining elements as shown above.
  +---+---+        +---+---+---+---+---+
  | 1 | 2 |        | 3 | 4 | 5 | 6 | 7 |
  +---+---+        +---+---+---+---+---+
  FIRST BLOCK      SECOND BLOCK
  Considered 2 blocks
- 
+ </PRE> 
 * 2nd Step: Now reverse the first d elements. It becomes as shown in the image
 +---+---+                +---+---+---+---+---+
 | 2 | 1 |                | 3 | 4 | 5 | 6 | 7 |
