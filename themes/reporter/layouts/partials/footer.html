@@ -9,7 +9,7 @@
 					{{ $option := add (string site.Params.logo_width) " webp" }}
 					{{ $logo:= $logo.Resize site.Params.logo_width }}
 					{{ $logo_webp:= $logo.Resize $option }}
-					<img loading="prelaod" decoding="async" class="img-fluid" width="{{$logo.Width}}" height="{{$logo.Height}}" src="{{$logo_webp.RelPermalink}}" alt="{{ site.Title }}" onerror="this.onerror=null;this.src='{{$logo.RelPermalink}}'">
+<!--					<img loading="prelaod" decoding="async" class="img-fluid" width="{{$logo.Width}}" height="{{$logo.Height}}" src="{{$logo_webp.RelPermalink}}" alt="{{ site.Title }}" onerror="this.onerror=null;this.src='{{$logo.RelPermalink}}'">-->
 					{{ else }}
 					{{site.Params.logo_text | markdownify}}
 					{{ end }}
