@@ -1,0 +1,26 @@
+https://en.wikipedia.org/wiki/ISO_8583
+
+/**
+ * Payment Indicator means if you are paying online or with Point of Sale and 1 is by online and 0 by Point of Sale.
+ * Additionally, by default it should 0 Point of Sale.
+ * @returns paymentIndicator
+ */
+private String getMessageTypeIndicator(TransactionType transactionType){
+  if(transactionType == null){
+     throw new illelageArgugmentException();
+  }else if(transactionType.equals(TransactionType.PREAUTH)){
+    return "100"
+  }else if(transactionType.equals(TransactionType.SALE)){
+    return "200"
+  }else if(transactionType.equals(TransactionType.POSTAUTH)){
+    return "220"
+  }else if(transactionType.equals(TransactionType.CREDIT)){
+    return "220"
+  }else if(transactionType.equals(TransactionType.VOID)){
+    return "420"
+  }else if(transactionType.equals(TransactionType.RETURN)){
+    return "420"
+  }else {
+    throw new illelageArgugmentException();
+  }
+}
