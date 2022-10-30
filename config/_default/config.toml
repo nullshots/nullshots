@@ -7,7 +7,7 @@ paginate = "7"
 # post excerpt
 summaryLength = "60"
 # google analytics
-googleAnalytics = "" 
+googleAnalytics = "G-MYJN2RTRPH" 
 # disqus short name https://disqus.com
 disqusShortname = "nullshots-com"
 # disable language
